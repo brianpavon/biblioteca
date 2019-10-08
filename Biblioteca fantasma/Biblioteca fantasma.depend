@@ -30,20 +30,22 @@
 	"utn.h"
 	"entidadFastama.h"
 
-1570503024 c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\utn.h
+1570558369 c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\utn.h
 	<stdio.h>
 	<stdlib.h>
 
 1570503024 c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\entidadfastama.h
 
-1570503024 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\main.c
+1570558369 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\main.c
 	<stdio.h>
 	<stdlib.h>
+	"utn.h"
 
-1570503024 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\utn.c
+1570558369 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\utn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<ctype.h>
 
 1570550832 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca\biblioteca fantasma\entidadfastama.c
 	<stdio.h>
@@ -80,4 +82,15 @@
 	<stdio.h>
 	<stdlib.h>
 	"utn.h"
+
+1570558369 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1570558369 c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 

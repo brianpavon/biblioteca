@@ -33,3 +33,4 @@ float totalSalariosGhosts(sGhost *Ghost, int sizeGhost);
 void salarioPromedioGhosts(sGhost *Ghost,int sizeGhost);
 void menuReportes(sGhost *Ghost, int sizeGhost, sGhostDos *GhostDos, int sizeGhostDos);
 void ghostHardcodeo(sGhost *Ghost, int sizeGhost);
+int buscarPorId(sGhost *ghost, int sizeGhost, int id);

@@ -514,3 +514,31 @@ float totalSalariosGhosts(sGhost *ghost, int sizeGhost)
          }
      }while(opcion != 3);
  }
+
+  /**
+ * \brief busca en un array de estructura por su ID
+ * \param array de estructura
+ * \param tamanio del array de estructura
+ * \param id establecido en la estructura
+ * \return devuelve la posicion del ID, con un 0 en señal de ok, sino -1
+ *
+ */
+ int buscarPorId(sGhost *ghost, int sizeGhost, int id)
+{
+    int i;
+    int retorno = -1;
+
+    if(ghost!= NULL && sizeGhost>0)
+    {
+
+        for(i=0; i<sizeGhost; i++)
+        {
+            if(ghost[i].id == id)
+            {
+                retorno = i;
+                break;
+            }
+        }
+    }
+    return retorno;
+}
