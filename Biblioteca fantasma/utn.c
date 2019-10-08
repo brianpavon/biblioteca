@@ -2,6 +2,7 @@
 //#include <stdio_ext.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #define QTY_CARACTERES 50
 
  /**
@@ -436,3 +437,32 @@ int ordenarArrayString(char aNombres[][QTY_CARACTERES], int cantidad){
 	}
 	return retorno;
 }
+
+/**
+ * \brief obtiene el maximo en un array de enteros
+ * \param array del cual se obtendran los elementos
+ * \param cantidad maxima de elementos del array de enteros
+ * \param direccion de memoria de la variable a la que se le asignara el valor obtenido
+ * \return devuelve la posicion y/o el valor del maximo del array,con un 0 en señal de OK, sino devuelve -1 en señal de error
+ *
+ */
+
+ char obtenerSexo(char *sexo)
+ {
+     int retorno = -1;
+     char letra;//variable que guardara el sexo
+     printf("Ingrese el sexo: \n");
+     fflush(stdin);
+     scanf("%c",&letra);
+     letra = toupper(letra);
+     if(letra == 'M' || letra == 'F')
+     {
+         retorno = 0;
+         *sexo = letra;
+     }
+     else
+     {
+         printf("El sexo no es valido\n");
+     }
+     return retorno;
+ }

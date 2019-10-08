@@ -50,4 +50,4 @@ int getString(	char *pResultado,
 
 int imprimirArrayString(char aNombres[][QTY_CARACTERES], int cantidad);
 int ordenarArrayString(char aNombres[][QTY_CARACTERES], int cantidad);
-
+char obtenerSexo(char *sexo);
