@@ -439,11 +439,9 @@ int ordenarArrayString(char aNombres[][QTY_CARACTERES], int cantidad){
 }
 
 /**
- * \brief obtiene el maximo en un array de enteros
- * \param array del cual se obtendran los elementos
- * \param cantidad maxima de elementos del array de enteros
- * \param direccion de memoria de la variable a la que se le asignara el valor obtenido
- * \return devuelve la posicion y/o el valor del maximo del array,con un 0 en señal de OK, sino devuelve -1 en señal de error
+ * \brief obtiene el sexo F o M
+ * \param puntero al que se le asignara el valor obtenido
+ * \return devuelve 0 si obtiene el caracter correcto, sino -1
  *
  */
 
