@@ -1,2 +1,0 @@
-# practicaEnCasa
-En casa
