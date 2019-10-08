@@ -533,7 +533,7 @@ float totalSalariosGhosts(sGhost *ghost, int sizeGhost)
 
         for(i=0; i<sizeGhost; i++)
         {
-            if(ghost[i].id == id)
+            if(ghost[i].id == id && ghost[i].status != STATUS_VACIO)
             {
                 retorno = i;
                 break;
