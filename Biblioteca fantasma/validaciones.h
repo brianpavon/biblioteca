@@ -6,8 +6,8 @@
 #define MAX_INPUT_BUFFER 4096
 
 
-int validarInt(char* buffer);
-int validarString(char* buffer);
+int validarInt(char *buffer);
+int validarStringLetras(char *buffer);
 int esNumeroTelefonico(char *buffer);
-
+int esFloat(char *buffer);
 

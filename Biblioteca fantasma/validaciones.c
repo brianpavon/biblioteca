@@ -7,13 +7,12 @@
 
 
 /** \brief Revisa que el string sean solo numeros
- *
  * \param buffer conteniendo el int como string
  * \return -1 error, 0 OK
  *
  */
 
-int validarInt(char* buffer)
+int validarInt(char *buffer)
 {
     int i=0;
     int retorno = 0;
@@ -30,14 +29,13 @@ int validarInt(char* buffer)
     return retorno;
 }
 
-/** \brief Revisa que el string ingresado no tenga caracteres invalidos
- *
+/** \brief Revisa que el string ingresado tenga solo letras
  * \param buffer conteniendo el string
  * \return -1 error, 0 OK
  *
  */
 
-int validarString(char* buffer)
+int validarStringLetras(char *buffer)
 {
     int i=0;
     int retorno = 0;
@@ -54,7 +52,6 @@ int validarString(char* buffer)
 }
 
 /** \brief verifica si el array de cadena de caracteres ingresado es un numero de telefono o celular
- *
  * \param  array de cadena de caracteres a verificar
  * \return int 1 si es numero de telefono -1 si no lo es
  *
@@ -82,4 +79,25 @@ if (flag==0 && guionesContador!=0)
     flag=1;
 }
 return flag;
+}
+
+/** \brief Revisa que el string sean solo numeros float
+ * \param buffer conteniendo el float como string
+ * \return -1 error, 0 OK
+ *
+ */
+int esFloat(char *buffer)
+{
+    int i; //indice que permite revisar el string de floats
+    int retorno=1; //bandera que permite saber si tiene solo numeros y puntos
+    i=0;
+    while (buffer[i]!= '\0')
+    {
+        if ((buffer[i]<'0' || buffer[i]>'9') && buffer[i]!= '.')
+        {
+            retorno=-1;
+        }
+    i++;
+    }
+return retorno;
 }
