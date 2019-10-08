@@ -22,3 +22,26 @@
 
 1570502129 c:\users\brian\desktop\tp 2\biblioteca fantasma\entidadfastama.h
 
+1570503024 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\entidadfastama.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utn.h"
+	"entidadFastama.h"
+
+1570503024 c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\utn.h
+	<stdio.h>
+	<stdlib.h>
+
+1570503024 c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\entidadfastama.h
+
+1570503024 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1570503024 source:c:\users\brian\desktop\biblioteca\biblioteca\biblioteca fantasma\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
