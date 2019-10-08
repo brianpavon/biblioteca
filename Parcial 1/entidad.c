@@ -547,7 +547,7 @@ int mayorPeriodoFacturado(sGhost *ghost,int sizeGhost,sGhostDos *ghostDos,int si
 {
     int retorno = -1;
     int i;
-    //int index;
+    int index;
     int j;
     int cantidadFacturada;
     if(ghost != NULL && sizeGhost > 0 && ghostDos != NULL && sizeGhostDos > 0)
@@ -555,13 +555,18 @@ int mayorPeriodoFacturado(sGhost *ghost,int sizeGhost,sGhostDos *ghostDos,int si
         retorno = 1; //esto nos sirve para verificar que entramos hasta aca
         for(i=0 ; i<sizeGhostDos; i++)
         {
-            for(j=0 ; j<sizeGhost ; j++)
+            index = buscarPorId(ghost,sizeGhost,id);
+            if(ghostDos[index].id == ghost[index].id)
+            {
+                HAGO LAS OPERACIONES QUE NECESITE
+            }
+            /*for(j=0 ; j<sizeGhost ; j++)
             {
                 if(ghostDos[i].id == ghost[j].id)
                 {
                     cantidadFacturada = ghostDos[i].CANTIDAD * ghost[j].ELPRECIO;
                 }
-            }
+            }*/
 
         }
     }
