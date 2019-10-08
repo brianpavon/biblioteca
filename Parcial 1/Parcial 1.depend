@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1570571882 source:/home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1570571882 /home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570572777 source:/home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1570572446 /home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/utn.h
+	<stdio.h>
+	<stdlib.h>
+
+1570572298 source:/home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/entidad.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utn.h"
+	"entidad.h"
+
+1570572510 /home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/entidad.h
+
+1570571938 source:/home/alumno/Descargas/GIT/brian/biblioteca/Parcial 1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidad.h"
+	"validaciones.h"
+
