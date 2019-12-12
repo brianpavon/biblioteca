@@ -9,7 +9,6 @@ int main()
 {
     int option;
 	int flag = 0;
-    char nombreArchivo[50];
 
 	LinkedList* pAarrayPuppyList;
 	pAarrayPuppyList = ll_newLinkedList();
@@ -30,16 +29,16 @@ int main()
 	        switch(option)
 	        {
 	            case 1:
-                    getString(nombreArchivo,"Ingrese el nombre del archivo\n","ERROR\n",0,60,2);
+
 	                if(flag == 0)
 	                {
+                        if(parser_parserCachorros("cachorros.csv",pAarrayPuppyList)==1)
+                        {
+                           printf("Lista cargada con exito\n");
+                           flag = 1;
+                           system("pause");
+                        }
 
-	                    if(parser_parserCachorros(nombreArchivo,pAarrayPuppyList)==1)
-	                    {
-	                        printf("Lista cargada con exito\n");
-	                        flag = 1;
-	                        system("pause");
-	                    }
 	                }
 	                else
 	                    {

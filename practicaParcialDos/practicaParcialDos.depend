@@ -14,15 +14,15 @@
 
 1575819541 c:\users\brian\desktop\practicaparcialdos\utn.h
 
-1576112702 c:\users\brian\desktop\practicaparcialdos\linkedlist.h
+1576120700 c:\users\brian\desktop\practicaparcialdos\linkedlist.h
 
-1576112702 source:c:\users\brian\desktop\practicaparcialdos\linkedlist.c
+1576120643 source:c:\users\brian\desktop\practicaparcialdos\linkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"LinkedList.h"
 
-1576118767 source:c:\users\brian\desktop\practicaparcialdos\main.c
+1576120903 source:c:\users\brian\desktop\practicaparcialdos\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -30,9 +30,9 @@
 	"utn.h"
 	"Cachorros.h"
 
-1576117566 c:\users\brian\desktop\practicaparcialdos\parser.h
+1576121212 c:\users\brian\desktop\practicaparcialdos\parser.h
 
-1576117665 source:c:\users\brian\desktop\practicaparcialdos\parser.c
+1576121212 source:c:\users\brian\desktop\practicaparcialdos\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"

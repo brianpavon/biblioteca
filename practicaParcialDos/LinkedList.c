@@ -564,22 +564,19 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
  * \return int Retorna  (-1) Error: si el puntero a la listas es NULL
                                 ( 0) Si ok
  */
- int ll_map(LinkedList* this, void (*pFunc)(void*))
+ void ll_map(LinkedList* this, void (*pFunc)(void*))
 {
-	int retorno = -1;
-	void* auxElement;
 	int i;
 	if(this != NULL && pFunc != NULL)
 	{
 
 		for(i=0; i< ll_len(this); i++)
 		{
-			auxElement = ll_get(this,i);
-			pFunc(auxElement);
-			retorno = 0;
+		    pFunc(ll_get(this,i));
+
 		}
 	}
-	return retorno;
+
 }
 
 
