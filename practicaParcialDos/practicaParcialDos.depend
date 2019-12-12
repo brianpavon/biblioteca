@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1576118084 source:c:\users\brian\desktop\practicaparcialdos\cachorros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Cachorros.h"
+	"utn.h"
+	"LinkedList.h"
+	"parser.h"
+
+1576118054 c:\users\brian\desktop\practicaparcialdos\cachorros.h
+	"utn.h"
+	"LinkedList.h"
+
+1575819541 c:\users\brian\desktop\practicaparcialdos\utn.h
+
+1576112702 c:\users\brian\desktop\practicaparcialdos\linkedlist.h
+
+1576112702 source:c:\users\brian\desktop\practicaparcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1576118767 source:c:\users\brian\desktop\practicaparcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"parser.h"
+	"utn.h"
+	"Cachorros.h"
+
+1576117566 c:\users\brian\desktop\practicaparcialdos\parser.h
+
+1576117665 source:c:\users\brian\desktop\practicaparcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Cachorros.h"
+
+1575819541 source:c:\users\brian\desktop\practicaparcialdos\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
